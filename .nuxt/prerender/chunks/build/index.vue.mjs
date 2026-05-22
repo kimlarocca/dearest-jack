@@ -1,0 +1,162 @@
+import { mergeProps, useSSRContext } from 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/vue/index.mjs';
+import { ssrRenderAttrs, ssrRenderStyle, ssrRenderAttr, ssrRenderComponent } from 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/vue/server-renderer/index.mjs';
+import { _ as _export_sfc } from './server.mjs';
+import { p as publicAssetsURL } from '../nitro/nitro.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/hookable/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/unctx/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/h3/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/vue-router/dist/vue-router.node.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/radix3/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/defu/dist/defu.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/ufo/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/utils/eventbus/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styled/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/utils/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/utils/object/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/base/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/utils/dom/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/destr/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/ofetch/dist/node.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/node-mock-http/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/klona/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/scule/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/unstorage/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/ohash/dist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primevue/core/base/style/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primevue/core/basecomponent/style/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/autocomplete/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/cascadeselect/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/checkbox/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/checkboxgroup/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/colorpicker/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/datepicker/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/floatlabel/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/iconfield/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/iftalabel/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/inputchips/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/inputgroup/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/inputnumber/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/inputotp/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/inputtext/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/knob/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/listbox/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/multiselect/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/password/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/radiobutton/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/radiobuttongroup/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/rating/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/select/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/selectbutton/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/slider/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/textarea/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/togglebutton/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/toggleswitch/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/treeselect/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/button/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/buttongroup/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/speeddial/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/splitbutton/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/datatable/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/dataview/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/orderlist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/organizationchart/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/paginator/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/picklist/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/tree/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/treetable/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/timeline/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/virtualscroller/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/accordion/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/card/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/divider/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/fieldset/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/panel/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/scrollpanel/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/splitter/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/stepper/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/tabview/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/tabs/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/toolbar/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/confirmdialog/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/confirmpopup/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/dialog/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/drawer/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/popover/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/fileupload/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/breadcrumb/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/contextmenu/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/dock/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/menu/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/menubar/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/megamenu/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/panelmenu/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/steps/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/tabmenu/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/tieredmenu/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/message/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/inlinemessage/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/toast/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/carousel/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/galleria/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/image/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/imagecompare/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/avatar/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/badge/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/blockui/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/chip/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/inplace/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/metergroup/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/overlaybadge/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/scrolltop/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/skeleton/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/progressbar/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/progressspinner/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/tag/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/terminal/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primevue/forms/form/style/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primevue/forms/formfield/style/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/tooltip/index.mjs';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/@primeuix/styles/ripple/index.mjs';
+import 'node:fs';
+import 'node:url';
+import 'file:///Users/kimlarocca/Websites/dearest-jack/node_modules/pathe/dist/index.mjs';
+
+const _sfc_main$1 = {
+  __name: "FloatingDonateButton",
+  __ssrInlineRender: true,
+  setup(__props) {
+    return (_ctx, _push, _parent, _attrs) => {
+      _push(`<div${ssrRenderAttrs(mergeProps({ class: "floating-donate-btn flex align-center" }, _attrs))} data-v-03229e1a><button aria-label="Donate" class="donate-btn" data-v-03229e1a> Donate </button><button aria-label="Volunteer" class="volunteer-btn" data-v-03229e1a> Volunteer </button><button aria-label="Linktree" class="icon-btn" data-v-03229e1a><i class="pi pi-link" style="${ssrRenderStyle({ "font-size": "1.5rem", "color": "var(--white)" })}" data-v-03229e1a></i></button></div>`);
+    };
+  }
+};
+const _sfc_setup$1 = _sfc_main$1.setup;
+_sfc_main$1.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/FloatingDonateButton.vue");
+  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
+};
+const __nuxt_component_0 = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-03229e1a"]]);
+
+const _imports_0 = publicAssetsURL("/letter.jpg");
+
+const _sfc_main = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_FloatingDonateButton = __nuxt_component_0;
+  _push(`<div${ssrRenderAttrs(mergeProps({ class: "container p-2 lg:p-4" }, _attrs))}><section class="text-center mb-6"><a target="_blank" href="/original-letter.png" class="plain"><img class="m-auto"${ssrRenderAttr("src", _imports_0)} alt="Letter to Jack Ciattarelli"></a></section><section style="${ssrRenderStyle({ "max-width": "887px", "margin": "auto" })}"><hr class="mb-12" style="${ssrRenderStyle({ "height": "20px", "border": "none", "background": "var(--black)" })}"><p class="mb-4"><span class="c1">Dearest Jack,</span></p><p class="mb-4"><span class="c1">I used to believe in you. You spoke like someone who understood New Jersey. Its grit, its talent, its heartbreak, its hope.</span></p><p class="mb-4"><span>You blamed Christie for the mess. You blamed Murphy for the missteps. And I believed you. Because you sounded honest. But now, </span><span class="font-bold">I don&#39;t know who you are anymore.</span></p><p class="mb-4"><span class="c0"><a target="_blank" class="c13" href="https://www.mycentraljersey.com/story/news/politics/2015/12/10/jack-ciattarelli-vs-donald-trump/77115510/">You told me “Mr. Trump preys upon our worst instincts and fears,”</a></span><span> that he&#39;s a “charlatan,” and an “embarrassment” who is “not fit to be President of the United States. </span><span class="font-bold">What changed?</span></p><p class="mb-4"><span>You promised you would keep our daughters safe - but can you explain how exactly that is accomplished by embracing the endorsement of a man who bragged about </span><span class="c0"><a target="_blank" class="c13" href="https://www.youtube.com/watch?v=fYqKx1GuZGg">grabbing women by their private parts</a></span><span> and </span><span class="c0"><a target="_blank" class="c13" href="https://www.youtube.com/watch?v=kikTv0I8XVw">walking into underage dressing rooms</a></span><span>, and was even </span><span class="c0"><a target="_blank" class="c13" href="https://www.pbs.org/newshour/politics/the-facts-and-timeline-of-trump-and-epsteins-falling-out">close friends with a convicted sex trafficker</a></span><span>. </span><span class="font-bold">Will you ever stand up for women, Jack?</span></p><p class="mb-4"><span>When Trump lost the election in 2020 and told The Big Lie that divided our country, you headlined a Stop The Steal rally undermining faith in our elections. After the January 6th riot, you felt the politics turning and finally admitted that Biden won the election. </span><span class="font-bold">Disturbingly, you didn&#39;t speak up when Trump pardoned the rioters who assaulted Capitol Police officers, including Brian Sicknick, a New Jerseyan who died defending democracy</span><span>.</span></p><p class="mb-4"><span>When you were running for office again, </span><span class="c0"><a target="_blank" class="c13" href="https://www.pbs.org/video/decision-2021-who-will-lead-nj-with-jack-ciattarelli-i50cwr/">you admitted that Trump, Guiliani, and others contributed to the riot, and that those who violated the law should be prosecuted to the full extent of the law</a></span><span>. But they weren&#39;t, and you didn&#39;t speak up. Worse than not speaking up, you went to Bedminster to beg for Trump&#39;s endorsement this year, and were “honored and humbled” when he gave it to you. </span><span class="font-bold">What did you promise him in return?</span></p><p class="mb-4"><span>It seems you only know how to speak up enough to blame your political opponents when it&#39;s convenient, and then you&#39;ll stay quiet instead of doing what&#39;s right. </span><span class="font-bold">That&#39;s not Leadership. That&#39;s Cowardice.</span></p><p class="mb-4"><span>You say you&#39;re a Libertarian who believes in personal freedoms, but</span><span> you support State funding for private schools instead of funding under-resourced public classrooms, you remain silent as the military takes over our streets, and you even once proposed </span><span class="c0"><a target="_blank" class="c13" href="https://www.youtube.com/watch?v=2TnsMJn1pU0">banning profanity</a></span><span>. </span><span class="c12">NJ needs help in certain areas, but did you notice that </span><span class="c0 c12"><a target="_blank" class="c13" href="https://www.usnews.com/news/best-states/rankings/education">we&#39;re #1 in Education</a></span><span class="font-bold">? Please don&#39;t ruin that.</span></p><p class="mb-4"><span>You talk about parental rights but won&#39;t protect a woman&#39;s right to choose. </span><span>You said that you&#39;ve “</span><span class="c0"><a target="_blank" class="c13" href="https://www.youtube.com/watch?v=B2jbdWkAJWA">never advocated for overturning Roe v. Wade</a></span><span>” and that you are “A-OK with a woman having the right to choose” and clearly suggested that </span><span>New Jersey didn&#39;t need its own protections. </span><span class="font-bold">Then SCOTUS overturned it. And you said nothing. And now you are supporting Abortion bans in New Jersey.</span></p><p class="mb-4"><span class="c12">You flip-flop on everything.</span><span> On Trump. On </span><span class="c0"><a target="_blank" class="c13" href="https://www.insidernj.com/press-release/ciattarelli-doubles-anti-science-covid-19-misinformation-record-editorial-board-meeting/">vaccines</a></span><span class="c1">. On offshore drilling. On LGBTQ rights. On gun safety. On climate change. Whatever polls well, you say it. Whatever base might carry you, you chase it. And when that doesn&#39;t work, you pivot again.</span></p><p class="mb-4"><span>You called out Mikie Sherrill for her husband&#39;s well-paying job where he made millions. But you said nothing about the Trump </span><span>family&#39;s </span><span class="c0"><a target="_blank" class="c13" href="https://gizmodo.com/trump-family-cryptocurrency-5-billion-richer-wlfi-price-2000652197">$5 billion crypto grift</a></span><span>.</span><span> </span><span class="font-bold">That&#39;s not Accountability. That&#39;s Hypocrisy.</span></p><p class="mb-4"><span class="c24">New Jerseyans</span><span> de</span><span class="c1">serve your loyalty. Trump does not.</span></p><p class="mb-4"><span class="font-bold">If you&#39;ll say anything to get elected, you stand for nothing.</span></p><p class="mb-4"><span class="c1">And if you stand for nothing, you don&#39;t deserve to lead this state.</span></p><p class="mb-4"><span class="c1">— Disgusted in NJ</span></p><hr class="mb-12" style="${ssrRenderStyle({ "height": "20px", "border": "none", "background": "var(--black)" })}"><p class="text-center text-sm"> This website was not requested or authorized by any candidate or candidate&#39;s committee.<br>Paid for by <a target="_blank" href="https://www.papnj.com">People Are People LLC</a>, 971 US Highway 202N #8014, Branchburg, NJ 08876. </p></section>`);
+  _push(ssrRenderComponent(_component_FloatingDonateButton, null, null, _parent));
+  _push(`</div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/index.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+
+export { index as default };
+//# sourceMappingURL=index.vue.mjs.map

@@ -3,11 +3,13 @@ const configRouterOptions = {
   hashMode: false,
   scrollBehaviorType: "auto"
 };
+const hashMode = false;
 const routerOptions = {
   ...configRouterOptions,
   ...routerOptions0
 };
 export {
-  routerOptions as default
+  routerOptions as default,
+  hashMode
 };
 //# sourceMappingURL=virtual_nuxt__Users_kimlarocca_Websites_dearest-jack_.nuxt_router.options.mjs.map
