@@ -1,0 +1,1 @@
+{"file":"virtual_public.mjs","mappings":";AAAuD,MAAe,aAAA,gBAAgB,aAAa;","names":[],"sources":["../../../../virtual:public?%2Fletter.jpg"],"sourcesContent":["import { publicAssetsURL } from '#internal/nuxt/paths';export default publicAssetsURL(\"/letter.jpg\")"],"version":3}

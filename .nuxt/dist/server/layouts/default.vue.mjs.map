@@ -1,0 +1,1 @@
+{"version":3,"file":"default.vue.mjs","sources":["../../../../layouts/default.vue"],"sourcesContent":["<template>\n  <div>\n    <main>\n      <NuxtPage />\n    </main>\n  </div>\n</template>\n"],"names":["_ssrRenderAttrs","_ssrRenderComponent"],"mappings":";;;;;;;AAAA,QAAA,OAAAA,eAAA,MAAA,CAAA,SAAA;AAAA,QAAAC,mBAAA,qBAAA,MAAA,MAAA,OAAA,CAAA;;;;;;;;;;"}
